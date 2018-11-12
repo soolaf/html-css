@@ -1,7 +1,9 @@
 h1{
   background:
     url
-    ("https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1200/600/92/cdn1.parksmedia.wdprapps.disney.com/media/abd/refresh/europe/3-night-barcelona-vacations/spain_barcelona_sunset_2x1.jpg"); 
+    ("https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage
+      /1/1200/600/92/cdn1.parksmedia.wdprapps.disney.com/media/abd/refresh/europe/3-night-barcelona-vacations/spain_barcelona_sunset_2x1.jpg")
+    ; 
   
   height:270px;
   
