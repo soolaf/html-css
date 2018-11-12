@@ -1,0 +1,122 @@
+h1{
+  background:
+    url("https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1200/600/92/cdn1.parksmedia.wdprapps.disney.com/media/abd/refresh/europe/3-night-barcelona-vacations/spain_barcelona_sunset_2x1.jpg"); 
+  
+  height:270px;
+  
+  text-align:center;
+  
+  padding:100px;
+  
+  
+  font-style:italic;
+  
+font-size:100px;
+  
+color:#F44336;
+  
+  border-radius:20%;
+  
+  margin-top:20px;
+  
+  margin-bottom:20px;
+}
+
+
+h2{
+  font-size:50px;
+font-style:italic;
+color:#EF5350;
+}
+.bar{
+  position:relative;
+  
+  margin-top:0;
+  
+margin-left:80px;
+  
+color:#AA00FF;
+  
+font-family:cursive;
+  
+font-size:20px;
+}
+.bar-ul{ 
+  list-style-type:none;
+  
+margin:0;
+  
+  padding:0;
+  
+  overflow:hidden;
+}
+.bar-li{
+  float:left;
+  
+text-align:center;
+  
+padding:30px;
+  
+font-size:1.5em;
+  
+margin:9px;
+  
+color:#D50000;
+  
+text-decoration:none;
+  
+}
+.bar-li a{
+  text-decoration:none;
+}
+img{
+  border-radius:50%;
+  
+width:400px;
+  
+  height:300px;
+}
+.naam{
+  font-style:italic;
+  
+font-family:lobster;
+  
+font-size:23px;
+  
+  color:#B71C1C;
+}
+.photo{
+  border:2px solid #1B5E20
+}
+.info p{
+  height:160px;
+  
+overflow: auto;
+  
+font-size:25px;
+  
+font-family:monospace;
+  
+  width:1200px;
+  
+margin: auto;
+  
+line-height:40px;
+  
+  background-color:#EF9A9A;
+
+background-position:bottom left;
+  
+padding:30px;
+}
+body{
+  background-color:#BDBDBD;
+}
+.content{
+  margin:20px;
+}
+span
+{
+  color:purple;
+font-size:40px;
+}
