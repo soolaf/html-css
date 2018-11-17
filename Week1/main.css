@@ -14,7 +14,8 @@ border-left:solid 55px #616161;
 }
 .bar{
 margin-right:90%;
-;}
+ width:40%;
+}
 
 .bar-ul{
 list-style-type:none;
