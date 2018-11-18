@@ -2,11 +2,12 @@ h1{
 width:170px;
 height:115px;
 ;background-color:#616161;
-margin-left:80px;
+margin-left:120px;
 text-align: center;
 color:#6dd5ed;
 font-size:30px;
-font-style:italic; 
+font-style:italic;
+ margin-top:100px;
 }
 #My_photo{ 
 margin-left:0;
@@ -37,10 +38,10 @@ background-color:#616161;
 }
 .naam{
 float:right;
-margin-left:60px;
+margin-left:10px;
 margin-right:70px;
-margin-top:60px;
-border-radius:30%;
+margin-top:70px;
+border-radius:20%;
 border:solid 1px black;
 background-color:white;
 
