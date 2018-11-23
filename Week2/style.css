@@ -86,6 +86,11 @@ padding-left: 0px;
    width:calc(100% - 20px);
 
 }
+@keyframes identifier {0% {top: 0;left0;}
+    30% {top: 50px;}
+    68%,72%{left:50px;}
+    100% {top:100px;left:100%;}
+}
 
 @media  (min-width: 480px) {
    .grid-item:nth-child(n) {width: calc(100% / 3  - 20px);
