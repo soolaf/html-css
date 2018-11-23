@@ -86,10 +86,7 @@ padding-left: 0px;
    width:calc(100% - 20px);
 
 }
-@keyframes h1 {
-    from {top: -100px;}
-    to {top: 20px;}
-}
+
 @media  (min-width: 480px) {
    .grid-item:nth-child(n) {width: calc(100% / 3  - 20px);
     }
