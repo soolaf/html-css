@@ -13,17 +13,14 @@ h1{
     width:300px;
     
     height:100px;
-    
-margin-right: 10px;
-    
-    margin-left:260px;
-    
+       
 text-shadow: 3px 3px 5px black, 0 0 30px #0750a3cc,0 0 15px #0c569b77;
+    
     animation-name: move;
     
         animation-duration: 4s;
     
-        animation-iteration-count: 3;
+        animation-iteration-count: 2;
 }
 h2{font-size: 30px;
     
