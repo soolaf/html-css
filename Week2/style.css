@@ -86,10 +86,12 @@ padding-left: 0px;
    width:calc(100% - 20px);
 
 }
-@keyframes h1 {0% {top: 0;left0;}
-    30% {top: 50px;}
-    68%,72%{left:50px;}
-    100% {top:100px;left:100%;}
+@keyframes h1 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
 }
 
 @media  (min-width: 480px) {
