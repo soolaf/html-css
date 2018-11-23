@@ -10,18 +10,20 @@ h1{
     
  color:white;
     
-    width:200px;
+    width:300px;
     
     height:100px;
     
 margin-right: 10px;
+    
+    margin-left:160px;
     
 text-shadow: 3px 3px 5px black, 0 0 30px #0750a3cc,0 0 15px #0c569b77;
     animation-name: move;
     
         animation-duration: 4s;
     
-        animation-iteration-count: 2;
+        animation-iteration-count: 3;
 }
 h2{font-size: 30px;
     
@@ -94,11 +96,11 @@ ul{
 padding-left: 0px;
 }
 @keyframes move {
-    0%   {background-color:red; left:0px; top:0px;}
+    0%   {background-color:ligtblue; left:0px; top:0px;}
     25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
+    50%  {background-color:ligtblue; left:200px; top:200px;}
     75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
+    100% {background-color:yellow; left:0px; top:0px;}
 }
 .grid-item:nth-child(1){
    width:calc(100% - 20px);
