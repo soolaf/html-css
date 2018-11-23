@@ -96,11 +96,11 @@ ul{
 padding-left: 0px;
 }
 @keyframes move {
-    0%   {background-color:pink; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:pink; left:200px; top:200px;}
-    75%  {background-color:gray; left:0px; top:200px;}
-    100% {background-color:yellow; left:0px; top:0px;}
+    0%   {background-color: pink; left:0px; top:0px;}
+    25%  {background-color: yellow; left:200px; top:0px;}
+    50%  {background-color: pink; left:200px; top:200px;}
+    75%  {background-color: gray; left:0px; top:200px;}
+    100% {background-color: yellow; left:0px; top:0px;}
 }
 .grid-item:nth-child(1){
    width:calc(100% - 20px);
