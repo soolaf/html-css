@@ -10,9 +10,9 @@ h1{
     
  color:white;
     border-radius: 30%;
-    width:300px;
+    width:400px;
     
-    height:70px;
+    height:100px;
   margin-left: 80px; 
     padding-top:30px;
        
@@ -37,7 +37,7 @@ margin-left: 40px;
 
 h3{
     font-size:20px;
-    border:solid 3px #C4E0E5;
+    color: #C4E0E5;
 }
 
 .grid-item {
