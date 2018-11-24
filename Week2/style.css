@@ -95,7 +95,7 @@ padding-left: 0px;
 }
 @keyframes move {
     0%   {background-color: pink; left:0px; top:0px;}
-    25%  {background-color: yellow; left:200px; top:0px;}
+    25%  {background-color: #4B79A1; left:200px; top:0px;}
     50%  {background-color: pink; left:200px; top:200px;}
     75%  {background-color: gray; left:0px; top:200px;}
     100% {background-color: pink; left:0px; top:0px;}
