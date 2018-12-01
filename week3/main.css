@@ -11,7 +11,7 @@ margin-top:0px;
 }
 #topMenu li{float:left;
 }
-#topMenu li a {display: inline-block;
+#topMenu h1 li a {display: inline-block;
 text-align: center;
 padding:14px 16px;
 text-decoration: none;
@@ -33,9 +33,7 @@ margin-top: 0;}
 #navBar:before{content:" ";
 display:table;}
 
-h1{box-sizing: border-box;
-list-style:none;
-text-align:left;}
+
 .assistive{overflow:hidden ;
      
 clip: rect(0,0,0,0);
