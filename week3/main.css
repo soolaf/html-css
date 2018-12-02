@@ -1,8 +1,7 @@
  #logotype{width: 160px;
 height:100px ;
 margin-left: 400px;}
-button{background-color:;}
-#topMenu {background-color: #168eca;
+#topMenu {background-color:#168eca;
 margin-top: 50px;
 margin-bottom: 50px;
 box-sizing: border-box;}
@@ -11,6 +10,8 @@ margin:0;
 padding:0;
 overflow: hidden;
 margin-top:0px;
+ background-color:#168eca;
+ 
 }
 #topMenu li{float:left;
     
