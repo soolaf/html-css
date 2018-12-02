@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+ <!DOCTYPE <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -12,10 +12,10 @@
         <body >
            
       
-                  <div class="wrapper">
+        <div class="logo">            <div class="wrapper">
 
               <img  src="https://or-ondersteuning.nl/wp-content/uploads/2017/05/Rijksoverheid1-1080x675.png" alt="Rijksoverheid" id="logotype" >
-            
+            </div>
           </div>
         
       
@@ -23,12 +23,14 @@
       
       <div id="navBar">
         <div class="wrapper">
-          
-     
-       
-
+        
+   
+      <nav class="breadCrumbNav">
+        
+        
+  
           <ul id="topMenu">
-           <li><a href="#">home</a></li>
+            <li><a href="#">Home</a></li>
             <li>
                 <a href="/actueel">Actueel</a>
               </li>
@@ -49,13 +51,19 @@
               </li>
             </ul>
         </nav>
-     
+      <div id="searchForm" class="searchForm initSearch searchOpened" data-search-closed="Open het zoekveld" data-search-opened="Zoeken">
+        <form method="get" action="/zoeken" id="search-form">
+          <label for="search-keyword">Zoek binnen Rijksoverheid.nl</label> 
+          <div class="clearFieldWrapper"><input type="text" id="search-keyword" class="searchInput" name="trefwoord" title="Type hier uw zoektermen" placeholder="Zoeken"><button class="clearField" type="button">invoer wissen</button></div>
+          <button id="search-submit" class="searchSubmit" name="search-submit" type="submit" title="Zoeken">Zoeken</button>
+        </form>
       </div>
       </div>
       </div><div id="main">
         
     
-              <div class="wrapper" >
+          <div class="headerImage smallHeaderImage topTask clickable" data-pauzetxt="Pauzeer diashow" data-playtxt="Speel diashow af">
+              <div class="wrapper" style="margin-top: 0px;">
                   
                       <div class="topTaskNavigation">
                           <div class="list">
@@ -111,7 +119,8 @@
                       
                       
                       
-                      <div class="slide" >
+                      <p class="copyright showCopyright">
+              <div class="slide" >
                               <picture>
                                   <source srcset="/binaries/small/content/gallery/rijksoverheid/content-afbeeldingen/nieuws-alleen-centrale-redactie/home/2018/basispakket-zorgverzekering-hero.jpg" media="(max-width: 415px)">
                               <source srcset="/binaries/medium/content/gallery/rijksoverheid/content-afbeeldingen/nieuws-alleen-centrale-redactie/home/2018/basispakket-zorgverzekering-hero.jpg" media="(max-width: 830px)">
@@ -264,8 +273,8 @@
           
         
           <div class="brick">
-            <ul>
-              <li>
+            
+              <div>
               <a href="https://www.studeermeteenplan.nl" >
                       <img src="https://www.rijksoverheid.nl/binaries/small/content/gallery/rijksoverheid/banner-afbeeldingen/home/2018/studeer-met-een-plan-3.jpg" alt="Check de mogelijkheden!">
       
@@ -274,8 +283,8 @@
                   <p>
                           Ga je verder studeren na je eindexamen? Bereid je goed voor op je studie.</p>
                   </a>
-                </li>
-      <li >
+              </div>
+      <div>
         
               <a href="/onderwerpen/brexit" class="">
                       <img src="https://www.rijksoverheid.nl/binaries/small/content/gallery/rijksoverheid/banner-afbeeldingen/home/2018/brexit-uitgelicht.jpg" alt="">
@@ -288,8 +297,8 @@
                   <p>
                           Alles wat u moet weten over de Brexit. En wat gaat er gebeuren, nadat het Verenigd Koninkrijk de Europese Unie heeft verlaten?</p>
                   </a>
-                </li>
-      <li >
+                </div>
+      <div >
               <a href="/actueel/nieuws/2018/11/23/maandag-3-december-landelijk-controlebericht-nl-alert" >
                       <img src="https://www.rijksoverheid.nl/binaries/small/content/gallery/rijksoverheid/banner-afbeeldingen/home/nl-alert-hand-telefoon.jpg" alt="">
       
@@ -298,92 +307,112 @@
                   <p>
                           Op maandag 3 december&nbsp;zendt de overheid het NL-Alert controlebericht uit. Is jouw mobiele telefoon al juist ingesteld?</p>
                   </a>
-              </li>
+                </div>
           </div>
-      
+        
       <div class="nieuws">
+        <table>
+          <tr>
+          <td>
           <h2>
             Nieuws</h2>
       
-          <div >
+          <div class="">
         <a href="/actueel/nieuws/2018/11/30/reactie-minister-president-rutte-bij-aanvang-g20-top-buenos-aires"> 
           <h3>
             
             Reactie minister-president Rutte bij aanvang G20 Buenos Aires</h3>
           <p>
-            <span class="publDate">30-11-2018 | 14:46</span>
-          </p> 
-          <p>Minister-president Rutte neemt op 30 november en 1 december&nbsp;deel aan de G20, het informele forum waarin door regeringsleiders van ...</p>
+            30-11-2018 | 14:46<br><br>
+          
+          Minister-president Rutte neemt op 30 november en 1 december&nbsp;deel aan de G20, het informele forum waarin door regeringsleiders van ...</p>
           </a>
       
-      </div>
-      
-      <div >
+      </div >
+      </td>
+      <td>
+      <div class="">
         <a href="/actueel/nieuws/2018/11/30/benoeming-burgemeester-oosterhout"> 
           <h3>
             
             Benoeming burgemeester Oosterhout</h3>
           <p>
-            <span class="publDate">30-11-2018 | 14:30</span>
-          </p> 
-          <p>De heer M. (Mark) Buijs wordt de nieuwe burgemeester van Oosterhout. De ministerraad heeft op voorstel van minister Ollongren van ...</p>
+            30-11-2018 | 14:30<br><br>
+           
+          De heer M. (Mark) Buijs wordt de nieuwe burgemeester van Oosterhout. De ministerraad heeft op voorstel van minister Ollongren van ...</p>
           </a>
       
       </div>
       
-      <div >
+      </td>
+          
+          
+          
+      <td>
+            <div class="">
         <a href="/actueel/nieuws/2018/11/30/benoeming-voorzitter-raad-voor-de-rechtspraak"> 
           <h3>
             
             Benoeming voorzitter Raad voor de rechtspraak</h3>
           <p>
-            <span class="publDate">30-11-2018 | 14:30</span>
-          </p> 
-          <p>De heer mr. H.C. Naves wordt de nieuwe voorzitter van de Raad voor de rechtspraak. De ministerraad heeft op voorstel van minister ...</p>
+            30-11-2018 | 14:30<br><br>
+        
+          De heer mr. H.C. Naves wordt de nieuwe voorzitter van de Raad voor de rechtspraak. De ministerraad heeft op voorstel van minister ...</p>
           </a>
       
       </div>
-      
-      <div >
+      </td>
+          </tr>
+        <tr>
+          
+          
+      <td>
+      <div class="">
         <a href="/actueel/nieuws/2018/11/30/benoeming-burgemeester-westland"> 
           <h3>
             
+        
             Benoeming burgemeester Westland</h3>
           <p>
-            <span class="publDate">30-11-2018 | 14:30</span>
-          </p> 
-          <p>De heer B.R. (Bouke) Arends MPM wordt de nieuwe burgemeester van de gemeente Westland. De ministerraad heeft op voorstel van ...</p>
+              30-11-2018  | 14:30<br><br>
+          De heer B.R. (Bouke) Arends MPM wordt de nieuwe burgemeester van de gemeente Westland. De ministerraad heeft op voorstel van ...</p>
           </a>
       
       </div>
-      
-      <div>
+      </td>
+          
+          
+      <td>
+      <div class="">
         <a href="/actueel/nieuws/2018/11/30/inlichtingenwet-aangescherpt"> 
           <h3>
             
             Inlichtingenwet aangescherpt</h3>
           <p>
-            <span class="publDate">30-11-2018 | 14:30</span>
-          </p> 
-          <p>Het kabinet heeft besloten om twee extra waarborgen in de Wet op de Inlichtingen- en Veiligheidsdiensten 2017 op te nemen. ...</p>
+            30-11-2018 | 14:30<br><br>
+         
+          Het kabinet heeft besloten om twee extra waarborgen in de Wet op de Inlichtingen- en Veiligheidsdiensten 2017 op te nemen. ...</p>
           </a>
       
       </div>
-      
-      <div>
+      </td>
+      <td>
+      <div class="">
         <a href="/actueel/nieuws/2018/11/30/benoeming-lid-kiesraad"> 
           <h3>
             
             Benoeming lid Kiesraad</h3>
           <p>
-            <span class="publDate">30-11-2018 | 14:30</span>
-          </p> 
+           30-11-2018 | 14:30 <br><br>
+          
           <p>De heer mr. A.B.L. (Aat) de Jonge wordt lid van de Kiesraad. De ministerraad heeft op voorstel van minister Ollongren van ...</p>
           </a>
       
       </div>
-      
-      <a class="more" href="/actueel/nieuws">Meer nieuws</a>
+      </td>
+      </tr>
+      </table>
+      <a class="more" href="/actueel/nieuws"> > Meer nieuws</a>
       
     </div>
       
@@ -391,15 +420,7 @@
       
         <div class="banner">
           <a href="/contact">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" style="enable-background:new 0 0 208 121;" version="1.1" viewBox="0 0 208 121" x="0px" xml:space="preserve" y="0px">
-          <rect class="st0" height="121" id="XMLID_1_" width="208"></rect>
-          <text class="st1 st2 st3" id="XMLID_2_" transform="matrix(1 0 0 1 63.4326 29.5)">Vragen?</text>
-          <a class="st4" xlink:href="tel:1400">
-              <text class="st1 st2 st4" id="XMLID_3_" transform="matrix(1 0 0 1 69.5903 109.5)">1400</text>
-          </a>
-          <text class="st5 st6" id="XMLID_5_" transform="matrix(1 0 0 1 42.7334 54.75)">Bel Informatie</text>
-          <text class="st5 st6" id="XMLID_6_" transform="matrix(1 0 0 1 43.1113 77)">Rijksoverheid:</text>
-      </svg></a>
+            </a>
         </div>
                                           
                                    
@@ -494,6 +515,7 @@
       </div>
       </div>
       
+  
       
       </body>
     
