@@ -1,25 +1,29 @@
- #logotype{width: 160px;
+
+#logotype{width: 190px;
 height:100px ;
-margin-left: 400px;}
-#topMenu {background-color:#168eca;
-margin-top: 50px;
-margin-bottom: 50px;
+margin-left: 50%;}
+#topMenu {background-color: #01689b;
+margin-top: 10px;
+margin-bottom: 0px;
 box-sizing: border-box;}
 #topMenu ul{list-style: none;
 margin:0;
 padding:0;
 overflow: hidden;
 margin-top:0px;
- background-color:#168eca;
- 
 }
+
+#search-keyword{float:left;padding-left: 10px;}
+
 #topMenu li{float:left;
+    padding-right: 30px;
     
 }
 #topMenu li a {display: inline-block;
 text-align: center;
 padding:14px 16px;
 text-decoration: none;
+color:white;
 }
 
 .topTaskNavigation{background-image: url('https://www.rijksoverheid.nl/binaries/widescreen/content/gallery/rijksoverheid/content-afbeeldingen/nieuws-alleen-centrale-redactie/home/2018/basispakket-zorgverzekering-hero.jpg');
@@ -33,9 +37,9 @@ width: 100%;
 
   }
   .list{background-color: white;
-margin-left: 50px;width: 60%;
-padding-left: 30px;
-margin-top: 0;
+margin-left: 10px;width: 40%;
+padding-left: 10px;
+margin-top: 0;list-style: none;
 line-height: 2em;}
 #navBar:before{content:" ";
 display:table;}
@@ -62,21 +66,7 @@ list-style: none;
 text-align: left;
 box-sizing: border-box;
 vertical-align: top;}
-ul{margin:0;
-list-style: none;
-text-align: left;
-vertical-align: top;
-box-sizing: border-box;
-position: relative;
-width:100%;
-margin:0 0 5px;
 
-}
-li{ padding:0;
-    list-style:none ;
-text-align: left;
-vertical-align: top;
-box-sizing: border-box;} 
 
  
 
@@ -89,7 +79,9 @@ padding-right: 15px;
     background-color: #fff;
     padding: 15px 15px 20px 15px;
 }
-.navItem{width:30%;
+
+.navItem{
+    width:22%;
     margin: 0 0 25px 0;
   
 text-align: left;
@@ -97,24 +89,34 @@ float: left;
 height: 150px;;
 
 padding: 10px;
+margin-left: 10px;
 
 justify-content: space-between;
 
 display: flex;
 position: relative;
 list-style: none;
+margin-top: 30px;
+
 
 
 }
-.fourItems{height: 20px;
+.navItem h2{margin-top:20px;}
+
+.navItem p{color:black;
+font-size:20px;
+margin-top:20px;}
+.fourItems{
+    height: 20px;
  
-width: 100%;}
+width: 100%;
+}
 
 
 
 
     
-.brick img{width: 250px;
+.brick img{width: 300px;
     height: 260px;
     
 
@@ -153,7 +155,7 @@ width: 100%;}
     overflow: hidden;
 }
 
-.wrapper{ }
+
 .publdate{width:30%;
     margin: 0 0 25px 0;
   
@@ -172,7 +174,7 @@ list-style: none;
 
 }
 
-.brick{float: left;display: flex;width: 100%;margin-top: 70px;}
+.brick{float: left;display: flex;width: 100%;margin-top: 100px;}
  .brick div{
     width: 100%;
     margin: 10px;
@@ -206,48 +208,50 @@ font-size:20px;
 font-style:unset;
 color:black; }
 
-.brick h3, .brick span.caption {
+.brick h3 {
     font-size: 1.75rem;
     line-height: 2rem;
     font-weight: normal;
     margin: 0 0 10px 0;
     
 }
+.brick p{color:black;
+}
 
     #footer{background-color:#168eca; color: white;
         
+  width: 100%; }
+    .column1{ margin-left: 500px;
+    width:20%;position: relative;font-style: italic;
+height: 0px;margin-top:20px;}
+    .column1 a {color: white;}
+     .column1 ul {line-height: 1.5em;
+        width: 50%;
+        list-style: none;  margin-top: 40px;
     }
-    .column a {color: white;}
-    #footer .wrapper .column ul li {line-height: 1.5em;
-        width: 100%;
-        list-style: none;
-        float: left;
-        
-        
-    }
-    #footer .wrapper .column ul {
-        margin: 0;
-        padding: 0;
-        
-    }
-    #footer .wrapper .column {
-      
-        float: left;
-        width: 25%;
     
-        position: relative;
-       
-        padding-left: 15px;
-        padding-right: 10px;
-margin-left: 120px;
+    .column2 a {color: white;}
+
+    .column1 h2{margin-left:60px;height:0px; width: 20%; }
+     .column2 h2{margin-left:10px;height: 10px;width: 70%;margin-top:0px;}
+     .column2 ul {line-height: 1.5em;
+        width: 70%;
+        list-style: none;  
+        
     }
-    .languages{width:100%;
-    margin-top: 400px;
-background-color: white;}
-    .payoff{margin-right: 300px;
+
+    .column2{width:25%;
+    margin-left:750px;height:280px;font-style: italic;
+}
+        
+    
+    
+    
+    .payoff{margin-left: 40px;
         font-size: 2em;
         margin-top: 30px;
         padding-top: 40px;
+        font-style: italic;
     }
     a{position: relative;
         padding-left: 20px;
@@ -257,3 +261,59 @@ background-color: white;}
          width:auto;
          
         }
+        .languages{margin-left: 200px;margin-top: 40px;
+        margin-bottom: 40px;}
+        .languages ul{list-style: none;
+            margin:0;
+            padding:0;
+            overflow: hidden;
+            margin-top:0px;
+            
+            }
+            *{box-sizing: border-box;}
+            .content{float: left; font-size: 25px;
+                padding-top: 0px;
+                position: relative;
+            width: 50%;
+        padding:30px;
+        padding-left: 20px;
+    height:300px;
+    
+margin-top: 0px;}
+.row{content: "";
+    display:table;
+    clear:both;
+margin-left: 150px;
+padding-left: 30px;
+text-align: center;
+} 
+.meld{border:solid 1px grey;padding-left: 15px;height:270px;
+padding-right: 15px;}
+.vragen{border:solid 1px grey;padding-left: 15px;padding-right: 15px;}          
+            .number {font-size: 35px;
+            color:rgb(14, 100, 197); margin-top: 0px;}
+            
+            h1{font-size: 30px;
+                color:rgb(14, 100, 197);text-align: center;margin-left: 10px; }
+             h2 {font-size: 27px;
+                ;margin-left: 10px; }
+     .meld p{font-size: 30px;color:rgb(219, 22, 71);margin-top: 0px;font-style:inherit;}         
+
+           .selected{font-size:20px;font-family: 'RO Sans', Calibri, sans-serif;}
+            
+            .languages li{ float:left;
+                padding-right: 10px;
+                
+                border:solid 1px rgb(30, 143, 235);
+                display: inline-block;
+               
+                width: auto;
+                margin:10px 20px 20px 10px;
+           padding: 10px 20px 20px 10px; }
+           @media screen and (max-width: 480px){
+
+            body, h2, h3 {
+                background-color: rgb(33, 180, 89);
+            } }
+             
+                 
