@@ -139,10 +139,7 @@ width: 100%;
 .brickrow::before{content: "";
 display: table;box-sizing: border-box;}
 
-@media only screen and (max-width: 480px) {
-  body {
-    background-color: lightblue;
-    }}
+
 @media  {.brick:nth-child(2n +1) {
     clear: both;}
 }
