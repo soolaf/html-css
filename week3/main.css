@@ -134,7 +134,12 @@ width: 100%;
     margin: 0;
     clear: both;
     
-   
+}
+.part{display:flex;
+    flex-warp:warp;
+    padding:15px;
+    margin:0 auto;
+    max-width:70%;
 }
 .brickrow::before{content: "";
 display: table;box-sizing: border-box;}
